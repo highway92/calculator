@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="calculator">
+      <form name="forms">
+        <input type="text" class="output" name="output" readonly />
+        <input
+          type="button"
+          onclick="typeValue();"
+          class="clear input"
+          value="C"
+        />
+        <input
+          type="button"
+          onclick="typeValue();"
+          class="operator input"
+          value="/"
+        />
+        <input type="button" onclick="typeValue();" class="input" value="1" />
+        <input type="button" onclick="typeValue();" class="input" value="2" />
+        <input type="button" onclick="typeValue();" class="input" value="3" />
+        <input
+          type="button"
+          onclick="typeValue();"
+          class="operator input"
+          value="*"
+        />
+        <input type="button" onclick="typeValue();" class="input" value="4" />
+        <input type="button" onclick="typeValue();" class="input" value="5" />
+        <input type="button" onclick="typeValue();" class="input" value="6" />
+        <input
+          type="button"
+          onclick="typeValue();"
+          class="operator input"
+          value="+"
+        />
+        <input type="button" onclick="typeValue();" class="input" value="7" />
+        <input type="button" onclick="typeValue();" class="input" value="8" />
+        <input type="button" onclick="typeValue();" class="input" value="9" />
+        <input
+          type="button"
+          onclick="typeValue();"
+          class="operator input"
+          value="-"
+        />
+
+        <input
+          type="button"
+          onclick="typeValue();"
+          class="input zero"
+          value="0"
+        />
+        <input
+          type="button"
+          onclick="typeValue();"
+          class="operator result input"
+          value="="
+        />
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
